@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdown Events</title>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <h2>Used Car Analysis</h2>
+    <select id="selDataset2" onchange="getData(this.value)">
+        <option value="Nissan">Nissan</option>
+        <option value="Volkswagen">Volkswagen</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Audi">Audi</option>
+        <option value="Dodge">Dodge</option>
+        <option value="Jeep">Jeep</option>
+        <option value="Ford">Ford</option>
+        <option value="Kia">Kia</option>
+        <option value="Honda">Honda</option>
+        <option value="Hyundai">Hyundai</option>
+        <option value="BMW">BMW</option>
+        <option value="Mercedes-Benz">Mercedes-Benz</option>
+        <option value="Chrysler">Chrysler</option>
+        <option value="Chevrolet">Chevrolet</option>
+        <option value="Saturn">Saturn</option>
+        <option value="Subaru">Subaru</option>
+        <option value="Mitsubishi">Mitsubishi</option>
+        <option value="Lexus">Lexus</option>
+        <option value="Porsche">Porsche</option>
+        <option value="GMC">GMC</option>
+        <option value="HUMMER">HUMMER</option>
+        <option value="Buick">Buick</option>
+        <option value="Acura">Acura</option>
+        <option value="Land Rover">Land Rover</option>
+        <option value="Pontiac">Pontiac</option>
+        <option value="Mazda">Mazda</option>
+        <option value="Suzuki">Suzuki</option>
+        <option value="Infiniti">Infiniti</option>
+        <option value="Lincoln">Lincoln</option>
+        <option value="Cadillac">Cadillac</option>
+        <option value="Volvo">Volvo</option>
+        <option value="MINI">MINI</option>
+        <option value="AM General">AM General</option>
+        <!-- <option value="Saab">Saab</option> -->
+        <option value="Infiniti">Saab</option>
+        <option value="Isuzu">Isuzu</option>
+        <option value="Scion">Scion</option>
+        <option value="Fiat">Fiat</option>
+        <!-- <option value="Jaguar">Jaguar</option>
+        <option value="Bentley">Bentley</option>
+        <option value="Tesla">Tesla</option>
+        <option value="Opel">Opel</option>
+        <option value="Mercury">Mercury</option> -->
+        
+
+    </select>
+    <div id="scatter"></div>
+
+
+
+    <!-- <script script type="text/javascript" src="depreciation_age_milage.json"></script> -->
+    <script src="depreciation.js"></script>
+</body>
+</html>
